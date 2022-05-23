@@ -1,0 +1,250 @@
+
+/* .navv ul{
+    margin: 0px;
+      float: right;
+      background: #1773be;
+     
+      width: 100%;
+      height: 80px;
+      text-align: right;
+      padding: 10px;
+  }
+  .navv ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+  } */
+  
+  .tel{margin-top: 12px;
+    margin-left: 0px;
+    width: 90%;
+  }
+  .spec{
+    margin-left: 10px;
+    
+    width: 50%;
+  }
+  .pass{
+    margin-top: 22px;
+    color: black;
+  }
+  .fille{
+    margin:9px;
+  
+  }
+  .RememberMe{
+    display: inline-block;
+  }
+  .submitt{
+    display: block !important;
+  }
+  .RememberMe input{
+    
+    float: left;
+      margin: 7px;
+  }
+  .date{
+    text-align: center;
+      width: 100%;
+      padding: 8px;
+      border-radius: 8px;
+      border: 1px solid;
+  }
+  
+  
+  /* .navv ul li a{
+    text-decoration:  none;
+    color:white;
+    padding: 6px 13px;
+    font-size: 20px;
+    transition: .4s;
+    font-weight: bold;
+    border-radius: 5px;
+  } */
+  
+  .remember{
+   
+    float: left;
+  }
+  .forgot{
+    float: right;
+    margin-left:0px;
+  color: grey;
+  text-align: right;
+  font-weight: bold;
+  
+  }
+  
+  /* .navv ul li a:hover{
+    background:#1e88e5 ;
+    border-radius: 5px;
+  } */
+  
+  * { margin: 0;
+    padding: 0;
+  
+  }
+  .control{    margin-top: 15px;
+    width: 100%;
+    margin-left: 0px;}
+  .appConta {
+  /* background: url("./img/00sl-coronaanxiety-mediumSquareAt3X.jpg"); */
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+    
+  }
+  
+  
+   .cars{
+   
+     display: inline-block;
+     margin-left: 40px;
+     border-radius: 4px;
+     width: 52%;
+     
+  
+  }
+   
+    
+  .app-wrapper{
+  background-color: white;
+  
+  
+  opacity: 1;
+      min-width: 350px;
+      min-height: 650px;
+      padding: 30px;
+      box-sizing: border-box;
+      margin: 18px auto;
+      width: 527px;
+      border-radius: 13px;
+  }
+  
+  .title{
+  color:#1773be;
+  text-align: center;
+  }
+  
+  .name,
+  .email,
+  .password{
+    margin: 15px;
+    color: #969292;
+    font-size: 16px;
+  
+  }
+  .check{
+    font-weight: 400;
+  }
+  .ss{
+    color: #0d47a1;
+    font-size: 19px;
+  }
+  .namee,
+  
+  .passwordd{
+    
+    margin: 40px;
+    color: #0d47a1;
+    font-weight: bold;
+    font-size: 16px;
+  
+  }
+  .submitt{
+    
+      text-transform: uppercase;
+    font-size: 20px;
+    font-family: unset;
+    border-radius: 15px;
+    color: white;
+    
+    
+    padding: 10px 40px;
+    background: linear-gradient(#42a5f5, #64b5f6, #bbdefb);
+    margin-top: 140px;
+    width: 70%;
+    margin-left: 60px;
+    margin-bottom: 0;
+    outline: none;
+    border:none;
+    cursor:pointer;
+    transition: all 0.1s;
+    box-shadow: rgba(0, 0,0 0.3)  0px 19px 38px, 
+    rgba(0, 0,0 0.22) 0px 15px 12px; }
+  
+  
+  .password{
+    margin-bottom: 40px;
+  }
+  
+  .input{
+  height: 32px;
+  font-size: 20px;
+  outline: none;
+  width: 100%;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: 2px solid black;
+  margin-bottom: 10px;
+  
+  }
+  
+  
+  .submit {
+    display: block;
+    text-transform: uppercase;
+  font-size: 20px;
+  margin: auto;
+  border-radius: 15px;
+  color: white;
+  padding: 10px 40px;
+  background: #1773be;
+  border: 1px solid #42a5f5;
+  margin: auto;
+  width: 70%;
+  outline: none;
+  cursor:pointer;
+  transition: all 0.7s;
+  margin-top: 30px;
+  font-family: unset;
+  }
+  
+  .submit:hover{
+  
+    background: #fff;
+    border: 1px solid #42a5f5;
+    color:#42a5f5;
+  
+  }
+  
+  #hh{color: #969292;
+  margin: 20px;
+  padding-left:60px;
+  
+  }
+  
+  .dat{
+    padding: 3px 5px;
+    width: 100%;
+  }
+  
+  
+  .rad{
+  
+    border: 2px dashed grey;
+    margin: 5px;
+    padding: 4px 6px;
+  }
+  /* .signn{
+  color: #969292;
+  text-align: center;
+  padding: 7px;
+  font-weight: bold;
+  } */
+  
