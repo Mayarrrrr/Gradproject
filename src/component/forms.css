@@ -2,7 +2,7 @@
 /* .navv ul{
     margin: 0px;
       float: right;
-      background: #1773be;
+      background: #00356B;
      
       width: 100%;
       height: 80px;
@@ -79,17 +79,17 @@
   /* .navv ul li a:hover{
     background:#1e88e5 ;
     border-radius: 5px;
-  } */
+  }
   
   * { margin: 0;
     padding: 0;
   
-  }
+  } */
   .control{    margin-top: 15px;
     width: 100%;
     margin-left: 0px;}
   .appConta {
-  /* background: url("./img/00sl-coronaanxiety-mediumSquareAt3X.jpg"); */
+  /* background: url("./imgs/00sl-coronaanxiety-mediumSquareAt3X.jpg"); */
   width: 100%;
   
   display: flex;
@@ -98,7 +98,25 @@
   
     
   }
+  .pass{
+    color: gray;
+  }
   
+  .lbl {
+    background-color: #1773be;
+    color: white;
+    padding: 0.5rem;
+    font-family: sans-serif;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-left: 40px;
+  }
+  
+  #file-chosen{
+    margin-left: 0.3rem;
+    font-family: sans-serif;
+  }
   
    .cars{
    
@@ -206,13 +224,13 @@
   padding: 10px 40px;
   background: #1773be;
   border: 1px solid #42a5f5;
-  margin: auto;
+  
   width: 70%;
   outline: none;
   cursor:pointer;
   transition: all 0.7s;
-  margin-top: 30px;
   font-family: unset;
+  
   }
   
   .submit:hover{
@@ -241,10 +259,200 @@
     margin: 5px;
     padding: 4px 6px;
   }
-  /* .signn{
+  .signn{
   color: #969292;
   text-align: center;
   padding: 7px;
   font-weight: bold;
-  } */
+  }
+  .caption{
+    display: inline-block;
+    margin-left: 50px;
+    
+  }
+  .capt{
+    color: black;
+    font-size: 18px;
+    margin-top: 12px;
+  }
+  .nv{
+    background-color: #969292;
+  }
+  .art{
+    color: grey;
+    font-size: 20px;
+    
+  }
+  .captionn{
+    display: inline-block;
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: 15px !important;
   
+   
+  }
+  
+  .by{
+    display: inline-block;
+  
+  margin-left: 25px;
+  }
+  .day{
+    display: inline-block;
+    margin-left: 25px;
+  }
+  .imgg{
+    margin-left: 150px;
+    border-radius: 40px!important;
+    
+  }
+  
+  /* .nav{
+    background-color:bisque;
+    display: inline-block;
+    
+    
+    padding-left: 0;
+    margin-bottom: 0;
+    
+  
+  } */
+  .book{
+    margin: 15px;
+      width: 100%;
+      flex-wrap: wrap;
+      padding-left: 0;
+      margin-bottom: 0;
+      padding: 10px;
+      margin-top: 7px;
+      border: 5px solid white;
+      background-color: white;
+      border-radius: 20px;
+  }
+  .til{
+    font-size: 20px;
+    font-weight: bold;
+    color: darkred;
+    margin-left: 20px;
+    display: inline-block;
+  }
+  .symp{
+    font-size: 40px;
+    color: black;
+   
+   
+  }
+  
+  .nava{
+    width: 45%;
+      float: left;
+      margin: 9px;
+      margin-left: 45px;
+  
+  }
+  
+  
+  .appo{
+    font-size: 35px;
+    margin-left: 70px;
+  }
+  .imgd{
+    display: inline-block;
+  }
+  
+  .imgd img{
+    float: left;
+    border-radius: 60px;
+  }
+  
+  
+  .carousel{width:  80%;
+    margin-left: 130px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+  
+  
+  
+    }.carousel .carousel-item {
+      height: 300px;
+     
+    }
+  .card{    
+      min-height: 550px;
+      margin-bottom: 20px;
+    }
+    .btn{
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 140px;
+     
+    }
+    .btm{
+      margin-left: 20px;
+  
+  
+      
+    }
+    .crt{
+      min-height: 50px;
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
+    
+  .sub {
+    display: block;
+    text-transform: uppercase;
+  font-size: 20px;
+  margin: auto;
+  border-radius: 15px;
+  color: white;
+  padding: 10px 40px;
+  background: #1773be;
+  border: 1px solid #42a5f5;
+  margin-top: 20px;
+  width: 25%;
+  outline: none;
+  cursor:pointer;
+  transition: all 0.7s;
+  font-family: unset;
+  margin-bottom: 30px;
+  
+  }
+  .car1{
+    color: black;
+    margin-top: 25px;
+    text-align: left;
+    font-weight: bold;
+  }
+  .car2{
+    color: black;
+    text-align: left;
+  }
+  .car4{
+    color: black;
+    text-align: left;
+  }
+  .sub:hover{
+  
+    background:#004F98;
+    border: 1px solid #42a5f5;
+    color:white;
+  
+  }
+  
+  .feedbk{
+  
+    font-size: 35px;
+    font-weight: bold;
+    color: #004F98;
+    margin-left: 150px;
+    margin-top: 20px;
+  }
+  .article{
+    font-size: 42px;
+    font-weight: bold;
+    color: #004F98;
+    margin-left: 150px;
+    line-height: 75px;
+   
+  }

@@ -5,7 +5,7 @@ import CloseIcon from '@mui/icons-material/Close';
 
 function ConfirmMessage(props) {
     return (props.show) ? (
-        <Container onClick={() => props.setShow(false)}>
+        <Container>
             <PopUp>
                 <div className='left'>
                     <h5>Thank you for your time. We will let you know when the Psychologist accepts your session appointment</h5>

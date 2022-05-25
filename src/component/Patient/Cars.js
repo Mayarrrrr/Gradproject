@@ -1,8 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel'
 import { useState } from 'react';
-import Def from '../img/def.png';
-import Child from '../img/child.png';
-import Type from '../img/type.png';
+import Def from '../../img/def.png';
+import Child from '../../img/child.png';
+import Type from '../../img/type.png';
 
 
 

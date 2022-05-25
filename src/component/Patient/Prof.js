@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './prof.css';
-import Pic from '../img/avatar.png';
+import Pic from '../../img/avatar.png';
 import NavBar from './NavBar';
 const Prof = () => {
     return ( 

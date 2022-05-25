@@ -1,4 +1,4 @@
-import out from '../img/out.png';
+import out from '../../img/out.png';
 import ReactRoundedImage from "react-rounded-image";
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';

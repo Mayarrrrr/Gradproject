@@ -5,14 +5,14 @@ import ConfirmMessage from './ConfirmMessage';
 
 function ConfirmPopUp(props) {
   return (props.trigger) ? (
-    <Container onClick={() => props.setTrigger(false)}>
+    <Container>
         
         <PopUp>
             <TaskImg src = "/img/task.png" />
             <h5>You have added your appointment on</h5>
             <div className='date'>
-                <h4>February 14,2022,</h4>
-                <h4>Tuesday 04:30 PM</h4>
+                <h4>{props.date},</h4>
+                <h4>{props.day}, {props.time}</h4>
             </div>
             <div className='buttons'>
                 <button className='confirm' onClick={() => {props.setShow(true); props.setTrigger(false)}}>Confirm</button>

@@ -9,7 +9,7 @@ function Header() {
         <NavMain>
         <HashLink to='/LandingPage/#work' > <List>How it works</List></HashLink>
            <Link to={'/SignupPatient'}> <List>Sign Up</List> </Link>
-           <Link to={'/Sign'}>  <List>Login</List>  </Link>
+           <Link to={'/PLogin'}>  <List>Login</List>  </Link>
         </NavMain>
     </Container>
   )

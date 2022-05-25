@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import { Link } from "react-router-dom";
-import './forms.css';
-import background from "../img/bg.jpg";
+import '../forms.css';
+import background from "../../img/bg.jpg";
 
 const SignupForm = () =>{
     const[Values,setValues]=useState({
@@ -23,7 +23,7 @@ setValues({
         event.preventDefault();
     };
   return (
-      <div className="appConta" style={{ backgroundImage: `url(${background})` }}>
+    <div className="appConta" style={{ backgroundImage: `url(${background})` }}>
   <div className="container">
       <div className="app-wrapper">
           <div>
@@ -35,9 +35,9 @@ setValues({
 <form className="form-wrapper">
   
     <div className="name">
-        <label className="label"> Full name</label>
+        <label className="label"> Username</label>
             <input className="input" type="text" name="fullname" value={Values.fullname} 
-            onChange={handleChange} >
+            onChange={handleChange}>
 
             </input>
 
@@ -46,22 +46,11 @@ setValues({
 
 
 
- <div className="email">
-        <label className="label"> Email</label>
-            <input className="input" type="email" name="email" value={Values.email
-            
-            }  onChange={handleChange} >
-               
-            </input>
-          
-        
- </div>
-
 
  <div className="password">
         <label className="label"> Password</label>
             <input className="input" type="password" name="password" value={Values.password}
-            onChange={handleChange} >
+            onChange={handleChange}>
             </input>
             
  </div>
@@ -69,7 +58,7 @@ setValues({
  
  <div className="password">
   <label>Enter your birthday:</label>
-        <input className="date"  type="date" name="bday" />
+        <input className="date"  type="date" name="bday"/>
   </div>
 
 <div>
@@ -86,14 +75,30 @@ setValues({
       </div>
       </div>
   
+<div className="file">
 
+
+<div className="password">
+<label className="pass"> Upload your profile picture</label> <br/>
+
+<input type="file" id="actual-btn" hidden accept="image/*"/>
+
+
+<label className="lbl" for="actual-btn">Choose File</label>
+
+
+<span id="file-chosen">No file chosen</span>
+</div>
+  </div>
+
+    
 <button className="submit" onClick={handleFormSubmit}> 
 <Link to={'/Home'}> Ceate Account </Link> </button> 
  
 
 
  
-<p className="signn">  Already have an account? <Link to="/">Sign in</Link></p>
+<p className="signn">  Already have an account? <Link to="/PLogin">Sign in</Link></p>
     
      </div>
 </form>

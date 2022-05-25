@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import Do from "../img/do.jpg";
+import Do from "../../img/do.jpg";
 import NavBar from "./NavBar";
 
 const AllTests = () => {
